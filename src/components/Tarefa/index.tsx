@@ -49,14 +49,21 @@ const Contato = ({
   return (
     <S.Card>
       <label htmlFor={nome}>
-        <input type="checkbox" id={nome} />
         <S.Nome>
           {estaEditando && <em>Editando: </em>}
           {nome}
         </S.Nome>
       </label>
-      <S.Email>{email}</S.Email>
-      <S.Telefone>{telefone}</S.Telefone>
+      <S.Email
+        disabled={!estaEditando}
+        value={telefone}
+        onChange={(evento) => setTelefone(evento.target.value)}
+      />
+      <S.Telefone
+        disabled={!estaEditando}
+        value={telefone}
+        onChange={(evento) => setTelefone(evento.target.value)}
+      />
       <S.BarraAcoes>
         {estaEditando ? (
           <>

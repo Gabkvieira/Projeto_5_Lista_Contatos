@@ -36,8 +36,9 @@ export const Campo = styled.input`
   border-radius: 8px;
   font-weight: bold;
   color: #666666;
-  border-color: #666666;
+  border: solid 2px;
   width: 100%;
+  margin-bottom: 16px;
 `
 export const Botao = styled.button`
   font-weight: bold;

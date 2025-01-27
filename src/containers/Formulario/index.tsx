@@ -33,13 +33,13 @@ const Formulario = () => {
         <Campo
           value={nome}
           onChange={(evento) => setNome(evento.target.value)}
-          as="textarea"
+          type="text"
           placeholder="Nome"
         />
         <Campo
           value={email}
           onChange={({ target }) => setEmail(target.value)}
-          as="textarea"
+          type="text"
           placeholder="Email"
         />
         <Campo

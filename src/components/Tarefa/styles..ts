@@ -16,7 +16,7 @@ export const Card = styled.div`
   }
 `
 
-export const Nome = styled.h3`
+export const Nome = styled.input`
   color: #8b8b8b;
   font-size: 14px;
   line-height: 24px;
@@ -30,7 +30,7 @@ export const Nome = styled.h3`
   background-color: transparent;
 `
 
-export const Email = styled.h3`
+export const Email = styled.input`
   color: #8b8b8b;
   font-size: 14px;
   line-height: 24px;

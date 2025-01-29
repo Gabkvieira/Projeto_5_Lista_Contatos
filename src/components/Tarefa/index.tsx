@@ -56,8 +56,8 @@ const Contato = ({
       </label>
       <S.Email
         disabled={!estaEditando}
-        value={telefone}
-        onChange={(evento) => setTelefone(evento.target.value)}
+        value={email}
+        onChange={(evento) => setEmail(evento.target.value)}
       />
       <S.Telefone
         disabled={!estaEditando}

@@ -45,7 +45,7 @@ const Formulario = () => {
         <Campo
           value={telefone}
           onChange={({ target }) => setTelefone(target.value)}
-          as="textarea"
+          type="tel"
           placeholder="Telefone"
         />
 

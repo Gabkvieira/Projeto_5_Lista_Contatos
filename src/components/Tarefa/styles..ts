@@ -17,7 +17,7 @@ export const Card = styled.div`
 `
 
 export const Nome = styled.input`
-  color: #8b8b8b;
+  color: black;
   font-size: 14px;
   line-height: 24px;
   font-family: 'Roboto Mono', monospace;
@@ -31,7 +31,7 @@ export const Nome = styled.input`
 `
 
 export const Email = styled.input`
-  color: #8b8b8b;
+  color: black;
   font-size: 14px;
   line-height: 24px;
   font-family: 'Roboto Mono', monospace;
@@ -45,9 +45,9 @@ export const Email = styled.input`
 `
 
 export const Telefone = styled.textarea`
-  color: #8b8b8b;
+  color: black;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 16px;
   font-family: 'Roboto Mono', monospace;
   display: block;
   width: 100%;
@@ -56,6 +56,7 @@ export const Telefone = styled.textarea`
   resize: none;
   border: none;
   background-color: transparent;
+  vertical-align: middle;
 `
 
 export const BarraAcoes = styled.div`

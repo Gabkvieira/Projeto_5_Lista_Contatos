@@ -48,12 +48,11 @@ const Contato = ({
 
   return (
     <S.Card>
-      <label htmlFor={nome}>
-        <S.Nome>
-          {estaEditando && <em>Editando: </em>}
-          {nome}
-        </S.Nome>
-      </label>
+      <S.Nome
+        disabled={!estaEditando}
+        value={nome}
+        onChange={(evento) => setNome(evento.target.value)}
+      />
       <S.Email
         disabled={!estaEditando}
         value={email}
